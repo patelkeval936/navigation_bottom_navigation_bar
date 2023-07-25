@@ -1,0 +1,26 @@
+      // onUnknownRoute: (settings) {
+      //   return MaterialPageRoute(
+      //       builder: (context) => Scaffold(
+      //             body: Center(
+      //                 child: ElevatedButton(
+      //                     onPressed: () {
+      //                       Navigator.of(context).pop();
+      //                     },
+      //                     child: const const Text('page does not exist \nGo Back'))),
+      //           ));
+      // },
+      // onGenerateRoute: (settings) {
+      //   switch (settings.name) {
+      //     case '/':
+      //       return MaterialPageRoute(builder: (context) => MyHomePage());
+      //     case '/page2':
+      //       return CupertinoPageRoute(builder: (context) => Page2(), settings: RouteSettings(arguments: 'data from route setting'));
+      //     default:
+      //       return MaterialPageRoute(
+      //           builder: (context) => const Scaffold(
+      //                 body: Center(
+      //                   child: const Text('page does not exist'),
+      //                 ),
+      //               ));
+      //   }
+      // },
